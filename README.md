@@ -38,36 +38,36 @@ Adversarial code review — actively tries to break confidence in the change, no
 
 ```bash
 # 1. Clone the repo
-git clone git@github.com:vancelin/codex-review-plugin.git
+git clone git@github.com:vancelin/codex-review-plugin-for-cc.git
 
 # 2. Copy skills to Claude Code skills directory
-cp -r codex-review-plugin/codex-adversarial-review ~/.claude/skills/
-cp -r codex-review-plugin/codex-review ~/.claude/skills/
+cp -r codex-review-plugin-for-cc/codex-adversarial-review ~/.claude/skills/
+cp -r codex-review-plugin-for-cc/codex-review ~/.claude/skills/
 
 # 3. Clean up (optional)
-rm -rf codex-review-plugin
+rm -rf codex-review-plugin-for-cc
 ```
 
 ### Option 2: One-liner Install
 
 ```bash
 cd ~/.claude/skills && \
-  git clone git@github.com:vancelin/codex-review-plugin.git /tmp/codex-review-plugin && \
-  cp -r /tmp/codex-review-plugin/codex-adversarial-review . && \
-  cp -r /tmp/codex-review-plugin/codex-review . && \
-  rm -rf /tmp/codex-review-plugin
+  git clone git@github.com:vancelin/codex-review-plugin-for-cc.git /tmp/codex-review-plugin-for-cc && \
+  cp -r /tmp/codex-review-plugin-for-cc/codex-adversarial-review . && \
+  cp -r /tmp/codex-review-plugin-for-cc/codex-review . && \
+  rm -rf /tmp/codex-review-plugin-for-cc
 ```
 
 ### Option 3: Manual Install
 
-1. Download the latest ZIP from [GitHub](https://github.com/vancelin/codex-review-plugin)
+1. Download the latest ZIP from [GitHub](https://github.com/vancelin/codex-review-plugin-for-cc)
 2. Unzip the archive
 3. Copy `codex-adversarial-review/` and `codex-review/` to `~/.claude/skills/`
 
 ```bash
-unzip codex-review-plugin-main.zip
-cp -r codex-review-plugin-main/codex-adversarial-review ~/.claude/skills/
-cp -r codex-review-plugin-main/codex-review ~/.claude/skills/
+unzip codex-review-plugin-for-cc-main.zip
+cp -r codex-review-plugin-for-cc-main/codex-adversarial-review ~/.claude/skills/
+cp -r codex-review-plugin-for-cc-main/codex-review ~/.claude/skills/
 ```
 
 ### Verify Installation
@@ -104,7 +104,7 @@ rm -rf ~/.claude/skills/codex-adversarial-review
 ## Directory Structure
 
 ```
-codex-review-plugin/
+codex-review-plugin-for-cc/
 ├── README.md
 ├── codex-adversarial-review/
 │   ├── SKILL.md
@@ -130,7 +130,7 @@ MIT
 
 ---
 
-# codex-review-plugin（繁體中文）
+# codex-review-plugin-for-cc（繁體中文）
 
 Claude Code 原生代碼審查 Skills — 參考 OpenAI Codex 的 `/codex:review` 和 `/codex:adversarial-review` 設計模式，以純 Claude 能力實作，零外部依賴。
 
@@ -166,14 +166,14 @@ Claude Code 原生代碼審查 Skills — 參考 OpenAI Codex 的 `/codex:review
 
 ```bash
 # 1. Clone repo
-git clone git@github.com:vancelin/codex-review-plugin.git
+git clone git@github.com:vancelin/codex-review-plugin-for-cc.git
 
 # 2. 複製 skills 到 Claude Code skills 目錄
-cp -r codex-review-plugin/codex-adversarial-review ~/.claude/skills/
-cp -r codex-review-plugin/codex-review ~/.claude/skills/
+cp -r codex-review-plugin-for-cc/codex-adversarial-review ~/.claude/skills/
+cp -r codex-review-plugin-for-cc/codex-review ~/.claude/skills/
 
 # 3. 清理（可選）
-rm -rf codex-review-plugin
+rm -rf codex-review-plugin-for-cc
 ```
 
 ### 方法二：一鍵安裝
@@ -181,22 +181,22 @@ rm -rf codex-review-plugin
 ```bash
 # 直接從 GitHub 下載並安裝
 cd ~/.claude/skills && \
-  git clone git@github.com:vancelin/codex-review-plugin.git /tmp/codex-review-plugin && \
-  cp -r /tmp/codex-review-plugin/codex-adversarial-review . && \
-  cp -r /tmp/codex-review-plugin/codex-review . && \
-  rm -rf /tmp/codex-review-plugin
+  git clone git@github.com:vancelin/codex-review-plugin-for-cc.git /tmp/codex-review-plugin-for-cc && \
+  cp -r /tmp/codex-review-plugin-for-cc/codex-adversarial-review . && \
+  cp -r /tmp/codex-review-plugin-for-cc/codex-review . && \
+  rm -rf /tmp/codex-review-plugin-for-cc
 ```
 
 ### 方法三：手動安裝
 
-1. 從 [GitHub](https://github.com/vancelin/codex-review-plugin) 下載最新 ZIP
+1. 從 [GitHub](https://github.com/vancelin/codex-review-plugin-for-cc) 下載最新 ZIP
 2. 解壓縮
 3. 將 `codex-adversarial-review/` 和 `codex-review/` 複製到 `~/.claude/skills/`
 
 ```bash
-unzip codex-review-plugin-main.zip
-cp -r codex-review-plugin-main/codex-adversarial-review ~/.claude/skills/
-cp -r codex-review-plugin-main/codex-review ~/.claude/skills/
+unzip codex-review-plugin-for-cc-main.zip
+cp -r codex-review-plugin-for-cc-main/codex-adversarial-review ~/.claude/skills/
+cp -r codex-review-plugin-for-cc-main/codex-review ~/.claude/skills/
 ```
 
 ### 驗證安裝
@@ -231,7 +231,7 @@ rm -rf ~/.claude/skills/codex-adversarial-review
 ## 目錄結構
 
 ```
-codex-review-plugin/
+codex-review-plugin-for-cc/
 ├── README.md
 ├── codex-adversarial-review/
 │   ├── SKILL.md
